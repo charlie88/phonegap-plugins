@@ -13,6 +13,11 @@ Using this plugin requires [Android PhoneGap](http://github.com/phonegap/phonega
 
 2. Create a directory within your project called "src/com/leafcut/ctrac" and move CallListPlugin.java into it.
 
+3. Register the plugin with Phonegap in plugins.xml
+<pre>
+<plugin name="CallListPlugin" value="com.leafcut.ctrac.CallListPlugin"/>
+</pre>
+
 ## Using the plugin ##
 
 The plugin creates the object `window.plugins.CallLog`.  To use, call one of the following, available methods:

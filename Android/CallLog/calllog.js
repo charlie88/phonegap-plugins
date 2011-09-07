@@ -18,5 +18,5 @@ CallLog.prototype.show = function(params, successCallback, failureCallback) {
 
 PhoneGap.addConstructor(function() {
 	PhoneGap.addPlugin('CallLog', new CallLog());
-	PluginManager.addService("CallListPlugin", "com.leafcut.ctrac.CallListPlugin");
+	//PluginManager.addService("CallListPlugin", "com.leafcut.ctrac.CallListPlugin"); ///commented out for 1.0
 });
